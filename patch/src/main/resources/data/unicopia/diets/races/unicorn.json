@@ -1,12 +1,11 @@
 {
-  "default_multiplier": 0.7,
+  "default_multiplier": 1,
   "foraging_multiplier": 1,
   "multipliers": [
     {
       "tags": [
         "unicopia:food_types/cooked_insect",
-        "unicopia:food_types/cooked_meat",
-        "unicopia:food_types/cooked_fish"
+        "unicopia:food_types/cooked_meat"
       ],
       "hunger": 0.1,
       "saturation": 0.1
@@ -28,5 +27,24 @@
       "saturation": 0.9
     }
   ],
-  "effects": []
+  "effects": [
+    {
+      "tags": [ "unicopia:food_types/cooked_fish" ],
+      "ailment": {
+        "effects": [ ]
+      }
+    },
+    {
+      "tags": [ "unicopia:food_types/raw_fish" ],
+      "ailment": {
+        "effects": [
+          {
+            "effect": "unicopia:food_poisoning",
+            "seconds": 50,
+            "amplifier": 2
+          }
+        ]
+      }
+    }
+  ]
 }
