@@ -1,24 +1,49 @@
 {
-  "default_multiplier": 0.75,
+  "default_multiplier": 0.5,
   "foraging_multiplier": 0,
   "multipliers": [
     {
-      "tags": [ "unicopia:food_types/cooked_insect" ],
+      "tags": [
+        "unicopia:food_types/cooked_insect",
+        "unicopia:food_types/raw_insect"
+      ],
       "hunger": 0.3,
       "saturation": 0.3
     },
     {
-      "tags": [ "unicopia:food_types/raw_insect" ],
+      "tags": [
+        "c:cooked_eggs",
+        "c:fruits",
+        "c:vegetables/tomato",
+        "minecraft:fox_food",
+        "unicopia:fresh_apples",
+        "unicopia:food_types/cooked_fish",
+        "unicopia:food_types/cooked_meat",
+        "unicopia:food_types/desserts"
+      ],
       "hunger": 1,
       "saturation": 1
     },
     {
-      "tags": [ "unicopia:food_types/raw_meat" ],
+      "tags": [
+        "unicopia:food_types/candy"
+      ],
+      "hunger": 2,
+      "saturation": 2
+    },
+    {
+      "tags": [
+        "unicopia:food_types/raw_meat",
+        "unicopia:food_types/raw_fish"
+      ],
       "hunger": 0.25,
       "saturation": 0.25
     },
     {
-      "tags": [ "unicopia:food_types/rotten_meat" ],
+      "tags": [
+        "unicopia:food_types/rotten_meat",
+        "unicopia:food_types/rotten_fish"
+      ],
       "hunger": 0.6,
       "saturation": 0.6
     },
@@ -49,15 +74,50 @@
     },
     {
       "tags": [
+        "c:cooked_eggs",
+        "c:fruits",
+        "c:vegetables/tomato",
+        "minecraft:fox_food",
         "unicopia:food_types/cooked_fish",
         "unicopia:food_types/raw_fish",
         "unicopia:food_types/cooked_meat",
-        "unicopia:food_types/raw_meat"
+        "unicopia:food_types/raw_meat",
+        "unicopia:fresh_apples"
       ],
       "ailment": {
         "effects": [ ]
       }
     },
+    {
+      "tags": [
+        "unicopia:food_types/desserts",
+        "unicopia:food_types/candy"
+      ],
+      "ailment": {
+        "effects": [
+          {
+            "effect": "minecraft:health_boost",
+            "seconds": { "min": 15, "max": 60 },
+            "amplifier": { "min": 2, "max": 6 }
+          },
+          {
+            "effect": "minecraft:jump_boost",
+            "seconds": { "min": 15, "max": 60 },
+            "amplifier": { "min": 1, "max": 6 }
+          },
+          {
+            "effect": "minecraft:health_boost",
+            "seconds": 30,
+            "amplifier": { "min": 1, "max": 6 }
+          },
+          {
+            "effect": "minecraft:regeneration",
+            "seconds": { "min": 1, "max": 60 },
+            "amplifier": { "min": 3, "max": 6 }
+          }
+        ]
+      }
+    }
     {
       "tags": [
         "unicopia:food_types/cooked_insect",

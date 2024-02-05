@@ -11,6 +11,6 @@
   * However, they should be sick from non-fruit veggies. Not yet implemented due to missing tags.
   * Changelings will find normal foodstuff less filling.
   * Changelings will fall sick consuming rotten meat, bugs and insects.
-  * Changelings absolutely love sweets!
+  * Changelings have crazy sweet teeth, and will go hyper with sugar rushes!
 * Fish is edible to unicorns as well.
 * Bats are fully carnivorous.
