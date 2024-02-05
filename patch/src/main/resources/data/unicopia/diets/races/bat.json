@@ -4,8 +4,8 @@
   "multipliers": [
     {
       "tags": [ "unicopia:food_types/cooked_fish" ],
-      "hunger": 0.75,
-      "saturation": 0.75
+      "hunger": 1,
+      "saturation": 1
     },
     {
       "tags": [ "unicopia:food_types/raw_fish" ],
@@ -65,7 +65,8 @@
     {
       "tags": [
         "unicopia:food_types/cooked_insect",
-        "unicopia:food_types/cooked_meat"
+        "unicopia:food_types/cooked_meat",
+        "unicopia:food_types/cooked_fish"
       ],
       "ailment": {
         "effects": [ ]
