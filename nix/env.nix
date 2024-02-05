@@ -23,6 +23,7 @@ pkgs.mkShell {
 		zopfli
 		brotli
 		# Development dependencies
+		jdk17
 	];
 	GIT_EDITOR = "${pkgs.nano}/bin/nano";
 	shellHook = ''
