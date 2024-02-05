@@ -75,6 +75,7 @@
     {
       "tags": [
         "c:cooked_eggs",
+        "c:berries",
         "c:fruits",
         "c:vegetables/tomato",
         "minecraft:fox_food",
@@ -82,7 +83,9 @@
         "unicopia:food_types/raw_fish",
         "unicopia:food_types/cooked_meat",
         "unicopia:food_types/raw_meat",
-        "unicopia:fresh_apples"
+        "unicopia:fresh_apples",
+        "vinery:red_grape",
+        "vinery:white_grape"
       ],
       "ailment": {
         "effects": [ ]
