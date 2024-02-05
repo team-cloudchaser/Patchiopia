@@ -3,3 +3,4 @@
 .zsh_history
 build
 source
+nix/jgit/*
