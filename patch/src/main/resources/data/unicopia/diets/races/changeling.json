@@ -51,15 +51,34 @@
       "tags": [
         "unicopia:food_types/cooked_fish",
         "unicopia:food_types/raw_fish",
-        "unicopia:food_types/rotten_fish",
-        "unicopia:food_types/cooked_insect",
-        "unicopia:food_types/raw_insect",
         "unicopia:food_types/cooked_meat",
-        "unicopia:food_types/raw_meat",
-        "unicopia:food_types/rotten_meat"
+        "unicopia:food_types/raw_meat"
       ],
       "ailment": {
         "effects": [ ]
+      }
+    },
+    {
+      "tags": [
+        "unicopia:food_types/cooked_insect",
+        "unicopia:food_types/raw_insect",
+        "unicopia:food_types/rocks",
+        "unicopia:food_types/rotten_fish",
+        "unicopia:food_types/rotten_meat"
+      ],
+      "ailment": {
+        "effects": [
+          {
+            "effect": "unicopia:food_poisoning",
+            "seconds": 50,
+            "amplifier": 2
+          },
+          {
+            "name": "unicopia.affliction.love_sickness",
+            "type": "unicopia:lose_hunger",
+            "multiplier": 0.5
+          }
+        ]
       }
     },
     {

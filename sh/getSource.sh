@@ -2,6 +2,7 @@
 if [ -d "./source" ]; then
 	echo "Updating remote source..."
 	cd source
+	git reset --hard
 	if [ "$1" != "" ]; then
 		git checkout "$1"
 	fi
