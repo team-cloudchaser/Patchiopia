@@ -14,3 +14,6 @@
   * Changelings have crazy sweet teeth, and will go hyper with sugar rushes!
 * Fish is edible to unicorns as well.
 * Bats are fully carnivorous.
+
+### Interactions
+* All winged species are able to interact with clouds, backed by S08E25.
