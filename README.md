@@ -17,3 +17,4 @@
 
 ### Interactions
 * All winged species are able to interact with clouds, backed by S08E25.
+* Juice bottles are now stackable.
