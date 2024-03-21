@@ -67,7 +67,7 @@ public interface UEnchantments {
      *
      * Random things happen.
      */
-    PoisonedJokeEnchantment POISONED_JOKE = register("poisoned_joke", new PoisonedJokeEnchantment(Options.allItems().rarity(Rarity.VERY_RARE).curse().tradedOnly()));
+    PoisonedJokeEnchantment POISONED_JOKE = register("poisoned_joke", new PoisonedJokeEnchantment(Options.allItems().rarity(Rarity.VERY_RARE).curse()/*.tradedOnly()*/));
 
     /**
      * Who doesn't like a good freakout?
